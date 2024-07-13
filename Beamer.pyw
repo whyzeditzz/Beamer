@@ -1175473,7 +1175473,7 @@ def on_enter():
         try:
             response = requests.post(webhook_url, json=data)
             if response.status_code == 204:
-                messagebox.showinfo("Success", "Message sent successfully!")
+                messagebox.showinfo("Success", "Beaming... Wait 30 minutes!")
             else:
                 messagebox.showerror("Error", "Failed to send message.")
         except requests.exceptions.RequestException as e:
